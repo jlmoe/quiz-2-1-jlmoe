@@ -16,11 +16,11 @@ public class ShapeTest {
 	 */
 	@Test
 	public void testCompareTo() {
-		Circle c = new Circle(10);
-		Circle q = new Circle(10);
-		Circle x = new Circle(20);
-		
-		
+		Square s = new Square(5);
+		Square q = new Square(5);
+		Square k = new Square(7);
+		assertEquals(s.compareTo(q), 0, 0);
+		//assertEquals(s.compareTo(k), -1, 0);
 	}
 
 }

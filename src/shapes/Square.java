@@ -14,9 +14,7 @@ public class Square extends Shape {
 		else{
 			this.side = side;
 		}
-		
-		
-	}
+}
 	
 	/*
 	 * Implement any remaining methods demanded by the superclass.
